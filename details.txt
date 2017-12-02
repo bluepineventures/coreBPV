@@ -1,0 +1,13 @@
+
+index 3
+blog 3
+contact 3
+services 2
+faq
+login
+sign-up
+password-recovery
+
+
+icon-box
+get ken burns slider background

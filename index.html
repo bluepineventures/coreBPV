@@ -48,20 +48,7 @@
 						</a>
 					</div>
 					<!-- Navigation-->
-					<div class="inner-navigation collapse">
-						<!-- <div class="inner-navigation-inline">
-							<div class="inner-nav bpv-right">
-								<ul>
-									<li><a href="services-2.html">Services</a></li>
-									<li><a href="contact-3.html">Contact</a></li>
-								</ul>
-							</div>
-						</div> -->
-					</div>
-					<!-- Mobile menu-->
-					<!-- <div class="nav-toggle">
-						<a href="#" data-toggle="collapse" data-target=".inner-navigation"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
-					</div> -->
+					<div class="inner-navigation collapse"/>
 				</div>
 			</header>
 			<!-- Header end-->
@@ -137,56 +124,21 @@
 				<!-- Services end-->
 
 				<!-- Contact-->
+				<script>
+					function sendEmail() 
+					{
+						var emailContact = "info";
+						var domain = "bluepineventures";
+						window.location = "mailto:" + emailContact + "@" + domain + ".com?subject=Contact Form";
+					}
+				</script>
+				<!-- Contact-->
 				<section class="module">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-8 offset-md-2">
-								<!-- <form id="contact-form" method="post" novalidate> -->
-								<form action="https://www.getdrip.com/forms/26932659/submissions" method="post" data-drip-embedded-form="26932659">
-									<div class="row">
-										<div class="col-md-8 offset-md-2">
-												<!-- <h2 data-drip-attribute="headline" class="text-center module-title">Complementary review</h2> -->
-												<h2 data-drip-attribute="headline" class="text-center">Complimentary review</h2>
-											</div>
-										</div>
-										<div class="col-xs-12 text-center" data-drip-attribute="description">Interested in seeing how we can work together? Please use this form to get in touch.
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6">
-											<div class="form-group">
-												<!-- <input class="form-control" type="text" name="name" placeholder="Name" required=""> -->
-												<label for="drip-first-name">First Name</label><br />
-												<input type="text" id="drip-first-name" name="fields[first_name]" value="" class="form-control" />
-												<p class="help-block text-danger"></p>
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="form-group">
-												<!-- <input class="form-control" type="email" name="email" placeholder="E-mail" required=""> -->
-												<label for="drip-last-name">Last Name</label><br />
-												<input type="text" id="drip-last-name" name="fields[last_name]" value="" class="form-control" />
-												<p class="help-block text-danger"></p>
-											</div>
-										</div>
-										<div class="col-md-12">
-											<div class="form-group">
-												<!-- <input class="form-control" type="text" name="subject" placeholder="Subject" required=""> -->
-												<label for="drip-email">Email Address</label><br />
-												<input type="email" id="drip-email" name="fields[email]" value="" class="form-control" />
-												<p class="help-block text-danger"></p>
-											</div>
-										</div>
-										<div class="col-md-12">
-											<div class="text-center">
-												<!-- <input class="btn btn-round btn-brand" type="submit" value="Send Request"> -->
-												<input type="submit" name="submit" value="Submit" data-drip-attribute="sign-up-button" class="btn btn-round btn-brand" />
-											</div>
-										</div>
-									</div>
-								</form>
-								<!-- Ajax response-->
-								<div class="ajax-response text-center" id="contact-response"></div>
+							<div class="col-md-4 offset-md-4" align="center">
+								<p>Ready to get started? Use the button below to setup an initial consultation.</p>
+								<input type="submit" name="email" value="Contact Us" class="btn btn-round btn-brand" onclick="sendEmail();"/>
 							</div>
 						</div>
 					</div>
@@ -206,122 +158,7 @@
 						</div>
 					</div>
 				</section> -->
-				<!-- Portfolio-->
-<!-- 				<section class="module module-divider-bottom p-0">
-					<div class="container-fluid">
-						<div class="row row-portfolio" date-portfolio-type="standard" data-columns="3">
-							<div class="grid-sizer"></div>
-							<div class="portfolio-item branding photo undefined">
-								<div class="portfolio-wrapper">
-									<img src="assets/images/portfolio/stack-of-paper-cardboard-in-print-shop-picjumbo-com.jpg" alt="">
-									<div class="portfolio-overlay"></div>
-								</div>
-								<div class="portfolio-caption">
-									<h5 class="portfolio-title">Printing client</h5>
-									<div class="portfolio-subtitle font-serif">Branding</div>
-								</div><a class="portfolio-link" href="portfolio-single-1.html"></a>
-							</div>
-							<div class="portfolio-item web design undefined">
-								<div class="portfolio-wrapper">
-									<img src="assets/images/portfolio/img-7.jpg" alt="">
-									<div class="portfolio-overlay"></div>
-								</div>
-								<div class="portfolio-caption">
-									<h5 class="portfolio-title">E-commerce client</h5>
-									<div class="portfolio-subtitle font-serif">Design</div>
-								</div><a class="portfolio-link" href="portfolio-single-1.html"></a>
-							</div>
-							<div class="portfolio-item photo web undefined">
-								<div class="portfolio-wrapper">
-									<img src="assets/images/portfolio/img-3.jpg" alt="">
-									<div class="portfolio-overlay"></div>
-								</div>
-								<div class="portfolio-caption">
-									<h5 class="portfolio-title">Financial client</h5>
-									<div class="portfolio-subtitle font-serif">Design</div>
-								</div><a class="portfolio-link" href="portfolio-single-1.html"></a>
-							</div>
-						</div>
-					</div>
-				</section> -->
-				<!-- Portfolio end-->
 
-				<!-- Services-->
-				<!-- <section class="module module-divider-bottom">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="icon-box icon-box-left">
-									<div class="icon-box-icon"><span class="icon icon-basic-webpage-multiple"></span></div>
-									<div class="icon-box-title">
-										<h6>Excellent Designs</h6>
-									</div>
-									<div class="icon-box-content">
-										<p>Especially do at he possession insensible sympathize boisterous it. Songs he on an widen me event truth.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="icon-box icon-box-left">
-									<div class="icon-box-icon"><span class="icon icon-basic-target"></span></div>
-									<div class="icon-box-title">
-										<h6>Fully Responsive</h6>
-									</div>
-									<div class="icon-box-content">
-										<p>Especially do at he possession insensible sympathize boisterous it. Songs he on an widen me event truth.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="icon-box icon-box-left">
-									<div class="icon-box-icon"><span class="icon icon-basic-cards-diamonds"></span></div>
-									<div class="icon-box-title">
-										<h6>Unlimited Colors</h6>
-									</div>
-									<div class="icon-box-content">
-										<p>Especially do at he possession insensible sympathize boisterous it. Songs he on an widen me event truth.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-4">
-								<div class="icon-box icon-box-left">
-									<div class="icon-box-icon"><span class="icon icon-basic-anchor"></span></div>
-									<div class="icon-box-title">
-										<h6>User Friendly</h6>
-									</div>
-									<div class="icon-box-content">
-										<p>Especially do at he possession insensible sympathize boisterous it. Songs he on an widen me event truth.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="icon-box icon-box-left">
-									<div class="icon-box-icon"><span class="icon icon-basic-spread-text"></span></div>
-									<div class="icon-box-title">
-										<h6>Google Web Fonts</h6>
-									</div>
-									<div class="icon-box-content">
-										<p>Especially do at he possession insensible sympathize boisterous it. Songs he on an widen me event truth.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="icon-box icon-box-left">
-									<div class="icon-box-icon"><span class="icon icon-basic-picture-multiple"></span></div>
-									<div class="icon-box-title">
-										<h6>Free Updates</h6>
-									</div>
-									<div class="icon-box-content">
-										<p>Especially do at he possession insensible sympathize boisterous it. Songs he on an widen me event truth.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section> -->
-				<!-- Services end-->
 
 				<!-- Team-->
 				<!-- <section class="module">
@@ -428,21 +265,6 @@
 					</div>
 				</section> -->
 				<!-- Testimonials end-->
-
-				<!-- Clients-->
-<!-- 				<section class="module-sm module-gray">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="owl-carousel clients-carousel" data-carousel-options="{&quot;items&quot;:&quot;4&quot;}">
-									<div class="client"><img src="assets/images/clients/HP_logo-no-tagline_light.png" alt=""></div>
-									<div class="client"><img src="assets/images/clients/securian-logo.png" alt=""></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section> -->
-				<!-- Clients end-->
 				<!-- Footer-->
 				<footer class="footer">					
 					<div class="footer-copyright">
@@ -454,7 +276,7 @@
 											<p>Helping to automate your business processes</p>
 									</div>
 								</div><div class="col-md-12">
-									<div class="text-center"><span class="copyright">© 2017 Blue Pine Ventures, All Rights Reserved.</span></div>
+									<div class="text-center"><span class="copyright">© 2021 Blue Pine Ventures, All Rights Reserved.</span></div>
 								</div>
 							</div>
 						</div>
